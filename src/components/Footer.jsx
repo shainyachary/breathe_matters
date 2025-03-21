@@ -1,5 +1,5 @@
 import logo from "../assets/logo.png";
-import "./Footer.css";
+import "./footer.css";
 const Footer = () => {
   return (
     <div className="footer">
