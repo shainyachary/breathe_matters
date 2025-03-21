@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  transition: 0.3s ease;
+}
+::-webkit-scrollbar {
+  background-color: #c7ebeb;
+  width: 0.7em;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #008080;
+  height: 2em;
+  border-radius: 3em;
+}
+.conatiner {
+  width: 80%;
+  margin: auto;
+}
+section {
+  min-height: 100vh;
+  padding: 7% 6% 1%;
+  transition: 0.5s ease;
+}
+img {
+  width: 100%;
+  object-fit: cover;
+}
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+.title {
+  text-align: center;
+  margin-bottom: 2em;
+}
+.title .main-title {
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #008080;
+  margin-bottom: 0.3em;
+  letter-spacing: 0.5px;
+}
+.title .sub-title {
+  color: #666;
+  font-size: 0.85em;
+  letter-spacing: 0.5px;
+}
+@media (max-width: 767px) {
+  section {
+    padding: 6% 4% 2%;
+    min-height: 50vh;
+  }
+}

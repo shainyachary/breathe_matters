@@ -1,0 +1,41 @@
+export const products = [
+  {
+    id: 1,
+    title: "CapnoTrainer, GO",
+    category: "Basic",
+    subCategory: "(Go Personal with options C & M)",
+    offer: "30% off",
+    price: "Rs. 2,69,376",
+  },
+  {
+    id: 2,
+    title: "CapnoTrainer, GO",
+    category: "Professional",
+    offer: "30% off",
+    price: "Rs. 3,89,491",
+  },
+  {
+    id: 3,
+    title: "CapnoTrainer, GO",
+    category: "Personal",
+    subCategory: "(Cellphone-tablet app only)",
+    offer: "30% off",
+    price: "Rs. 2,07,212",
+  },
+  {
+    id: 4,
+    title: "CapnoTrainer, GO",
+    category: "Personal with Option C",
+    subCategory: "(Computer)",
+    offer: "30% off",
+    price: "Rs. 2,32,078",
+  },
+  {
+    id: 5,
+    title: "CapnoTrainer, GO",
+    category: "Personal with Option M",
+    subCategory: "(Multi-user)",
+    offer: "30% off",
+    price: "Rs. 2,44,511",
+  },
+];

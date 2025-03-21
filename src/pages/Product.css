@@ -1,0 +1,85 @@
+.img-container {
+  width: 300px;
+  height: 400px;
+  margin: 2em auto 0;
+}
+.img-container img {
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.prod-contain {
+  margin-top: -3em;
+}
+.prod-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-align: center;
+}
+.prod-subtitle {
+  font-size: 0.85em;
+  text-align: center;
+  color: #555;
+  margin-bottom: 2em;
+}
+.prod-cardcontain {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5em;
+}
+.prod-card {
+  background: linear-gradient(
+    to bottom right,
+    #fff,
+    #eff3f3,
+    #e6f2f2,
+    #eff3f3,
+    #96cbcb
+  );
+  width: 280px;
+  height: 180px;
+  border-radius: 0.5em;
+  box-shadow: 0 0.6em 0.3em rgba(0 0 0/20%);
+  position: relative;
+  padding: 1em;
+}
+.prod-card .prodlogo {
+  position: absolute;
+  top: -26px;
+  left: -21px;
+  width: 50px;
+  z-index: 1;
+}
+.prod-card .prod-cardbody {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  height: 100%;
+}
+.card-title,
+.card-subcategory {
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #96cbcb;
+}
+.card-category {
+  font-size: 0.9em;
+  font-weight: 500;
+  color: #008080;
+}
+.card-offer {
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #008080;
+}
+.card-price {
+  font-size: 1.3em;
+  font-weight: 600;
+  color: #008080;
+}
